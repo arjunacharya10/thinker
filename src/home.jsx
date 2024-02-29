@@ -3,7 +3,7 @@ import { Tldraw, createTLStore, defaultShapeUtils } from "@tldraw/tldraw";
 import './home.css'
 
 async function getRemoteSnapshot(user,supabaseClient) {
-  const stringified = localStorage.getItem('thinker2')
+  const stringified = localStorage.getItem('thinker')
   if(user){
 	const { data, error } = await supabaseClient
 	.from('snapshots')
@@ -20,7 +20,7 @@ async function getRemoteSnapshot(user,supabaseClient) {
 async function save (store, user, supabaseClient) {
 	const snapshot = store.getSnapshot()
 	const stringified = JSON.stringify(snapshot)
-	localStorage.setItem('thinker2', stringified)
+	localStorage.setItem('thinker', stringified)
 
 	// insert to db
 	if(user){
@@ -98,7 +98,7 @@ export default function Home ({supabaseClient}) {
             }}>Sign out</button>
 		</div>
 		<div style={{ position: 'fixed', inset: 0, marginTop:35 }}>
-        	<Tldraw persistenceKey='thinker2' store={storeWithStatus}/>
+        	<Tldraw persistenceKey='thinker' store={storeWithStatus}/>
       </div>
 	</div>
   )
