@@ -33,7 +33,7 @@ if (!session) {
 	return (
 		<div style={{display:'flex', flexGrow:1, width:'40vh', height:'full', flexDirection:'column'}}>
 			<h1 style={{textAlign:'center'}}>Welcome to Thinker!</h1>
-			<Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} />
+			<Auth supabaseClient={supabase} providers={[]} appearance={{ theme: ThemeSupa }} />
 		</div>
 	)
   }
