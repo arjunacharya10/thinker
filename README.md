@@ -5,6 +5,10 @@ Most of the note taking apps do a lot of things, ending up not doing anything. T
 ## Use the Application
 The **Windows** and **Mac** version of the app can be found [here](https://arjunchangeeachary.wixsite.com/thinker). This has cloud persistance included in supabase included in it.
 
+![Thinker App](docs/app.png)
+*Image (Soruce - Thinker for Mac)*
+
+
 ## Self Hosting
 
 This has two steps.
