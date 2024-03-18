@@ -1,0 +1,49 @@
+{
+  "name": "thinker",
+  "productName": "Thinker",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "@electron-forge/plugin-fuses": "^7.2.0",
+    "@electron-forge/plugin-vite": "^7.3.0",
+    "@electron/fuses": "^1.7.0",
+    "electron": "29.1.0",
+    "vite": "^5.0.12"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Arjun Acharya",
+    "email": "arjunchangeeacharya1998@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ant-design/icons": "^5.3.5",
+    "@supabase/auth-ui-react": "^0.4.7",
+    "@supabase/auth-ui-shared": "^0.1.8",
+    "@supabase/supabase-js": "^2.39.7",
+    "@tldraw/tldraw": "^2.0.0-beta.4",
+    "antd": "^5.15.4",
+    "electron-squirrel-startup": "^1.0.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.22.3",
+    "sort-by": "^1.2.0"
+  }
+}
