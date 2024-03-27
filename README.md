@@ -1,6 +1,6 @@
 # Alert !!!!
 
-The repo has had some breaking changes to accomodate new Project structure. The instructions to self host will be updated soon!
+The repo has had some breaking changes to accomodate new Project structure. The instructions to self host will be updated soon! 
 
 # Thinker - A free and Basic version of Milanote. 
 
